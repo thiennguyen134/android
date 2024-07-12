@@ -1,0 +1,73 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/my_image"
+        android:contentDescription="@string/my_image_description" />
+
+    <!-- Top Text -->
+    <TextView
+        android:id="@+id/top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/my_image"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="@string/top_text"
+        android:textSize="24sp" />
+
+    <!-- Bottom Left Text -->
+    <TextView
+        android:id="@+id/bottom_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:text="@string/bottom_left_text"
+        android:textSize="18sp" />
+
+    <!-- Bottom Right Text -->
+    <TextView
+        android:id="@+id/bottom_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"
+        android:text="@string/bottom_right_text"
+        android:textSize="18sp" />
+
+    <!-- Top Left Text -->
+    <TextView
+        android:id="@+id/top_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:text="@string/top_left_text"
+        android:textSize="18sp" />
+
+    <!-- Top Right Text -->
+    <TextView
+        android:id="@+id/top_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"
+        android:text="@string/top_right_text"
+        android:textSize="18sp" />
+
+</RelativeLayout>

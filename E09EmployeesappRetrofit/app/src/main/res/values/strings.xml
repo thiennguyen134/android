@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E09Showemployees</string>
+    <string name="employee_image_description">Employee Image</string>
+    <string name="name_description">Employee Name</string>
+    <string name="title_description">Employee Title</string>
+    <string name="email_description">Employee Email</string>
+    <string name="phone_description">Employee Phone</string>
+    <string name="department_description">Employee Department</string>
+</resources>

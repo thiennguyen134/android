@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id portraitText
+id textView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_clicked_txt
+string button_txt
+string landscape_txt
+string portrait_txt
+style Theme.E01FirstApplication
+xml backup_rules
+xml data_extraction_rules

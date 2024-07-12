@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">E02 Build UI With Layout Editor 1</string>
+    <string name="top_text">Hello Android</string>
+    <string name="bottom_left_text">LeftBottom</string>
+    <string name="bottom_right_text">RightBottom</string>
+    <string name="top_left_text">LeftTop</string>
+    <string name="top_right_text">RightTop</string>
+    <string name="my_image_description">HelloAndroid</string>
+
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="weather_info">City: %1$s\nDescription: %2$s\nTemperature: %3$s</string>
+
+</resources>
